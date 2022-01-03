@@ -21,6 +21,7 @@ h1 {
   font-weight: 500;
   text-align: center;
   padding-top: 120px;
+  color: #072866;
 }
 
 .subtittle {
@@ -30,6 +31,7 @@ h1 {
   text-align: center;
   bottom: 50px;
   font-weight: normal;
+  color: #072866;
 }
 
 .profile_avatar {
@@ -82,7 +84,7 @@ h1 {
   top: 50px;
 }
 
-selected{
+.selected{
   color: #072866;
 }
 
