@@ -82,6 +82,10 @@ h1 {
   top: 50px;
 }
 
+selected{
+  color: #072866;
+}
+
 .unselected {
   color: #F4A0A0;
 }
