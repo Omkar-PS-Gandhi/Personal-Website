@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/*******************************top-container******************************/
+h1 {
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.top-container {
+  background-color: #FAEDF0;
+  height: 90vh;
+  position: relative;
+}
+
+.title {
+  font-family: 'Parisienne', cursive;
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.subtittle {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  bottom: 50px;
+  font-weight: normal;
+}
+
+.profile_avatar {
+  width: 5%;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+
+.mountains {
+  width: 800px;
+  height: 310px;
+  position: absolute;
+  bottom: -3.5px;
+  left: 330px;
+}
+
+.programmer {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 650px;
+  top: 300px;
+}
+
+.cloud1 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.cloud2 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 200px;
+  bottom: 400px;
+}
+
+.tabs {
+  display: inline;
+  padding: 30px;
+}
+
+.tab-group {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.unselected {
+  color: #F4A0A0;
+}
+
+/*******************************middle-container******************************/
+.middle-container {
+  height: 205vh;
+}
+
+.profile_avatar1 {
+  width: 10%;
+  display: block;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gesture {
+  font-family: 'Satisfy', cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 31px;
+  text-align: center;
+  margin: 50px;
+  padding: 0;
+  color: #FF4155;
+}
+
+.intro {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #072866;
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 300;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 6px dotted #F0F0F0;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skill_title {
+  font-family: 'Satisfy', cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 31px;
+  text-align: center;
+  margin: 50px;
+  padding: 0;
+  color: #FF4155;
+}
+
+.skill_row {
+  width: 60%;
+  margin: 70px auto;
+}
+
+.skill_subtitle {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: #FF7A88;
+  font-size: 22px;
+}
+
+.skill_intro {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #072866;
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 300;
+}
+
+.skill1_profile_avatar {
+  width: 20%;
+  float: left;
+  margin-right: 100px;
+}
+
+.skill2_profile_avatar {
+  width: 20%;
+  float: right;
+  margin-left: 100px;
+}
+
+.contribution {
+  font-family: 'Satisfy', cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 31px;
+  text-align: center;
+  margin: 50px;
+  padding: 0;
+  color: #FF4155;
+}
+
+.contribution_subtitle {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #FF7A88;
+  font-size: 22px;
+}
+
+.contribution_intro {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #072866;
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 300;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.msg_button {
+  width: 10%;
+  margin: 30px auto;
+  border: 1px solid #072866;
+  padding: 10px;
+  background-color: #FFBFC6;
+  border-radius: 5px;
+  border-color: #FF4155;
+}
+
+.msg_button a, i{
+  text-decoration: none;
+  color: #FF7A88;
+  font-size: 17px;
+  cursor: alias;
+}
+
+.msg_button:hover{
+  background-color: #FFB1B9;
+  cursor: alias;
+}
+
+/*******************************bottom-container******************************/
+.bottom-container {
+  height: 20vh;
+  background-color: #FAEDF0;
+  position: relative;
+
+}
+
+.links a{
+  text-decoration: none;
+  color: #FFBFC6;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.links{
+  width: 50%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.copyright{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #FFBFC6;
+  padding-top: 20px;
+}
+
+.links a:hover{
+  color: #072866;
+  cursor: alias;
+
+
+
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Poppins', sans-serif;
+blue: #072866;
+red: #FF4155;
+light red : #FF7A88;
+*/
